@@ -1,0 +1,46 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Wellness Aligned Living//Protection Before Panic Webinar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:protection-before-panic-webinar-weekly@wellnessalignedliving.com
+DTSTAMP:20260507T120000Z
+DTSTART;TZID=America/New_York:20260510T160000
+DTEND;TZID=America/New_York:20260510T173000
+RRULE:FREQ=WEEKLY;BYDAY=SU
+SUMMARY:Protection Before Panic Webinar with Nikohl
+DESCRIPTION:Join Nikohl Laidler for the live Protection Before Panic webinar.\n\nThis weekly webinar helps parents understand what protection your family actually needs — and how to put a real plan in place.\n\nZOOM LINK: https://us06web.zoom.us/j/89731719894?pwd=muZlwwjhRKynLy7RV9ja9otShUNUUS.1\nMeeting ID: 897 3171 9894\nPasscode: 078435\n\nWellness Aligned Living\nhttps://wellnessalignedliving.com
+LOCATION:Zoom: https://us06web.zoom.us/j/89731719894?pwd=muZlwwjhRKynLy7RV9ja9otShUNUUS.1
+URL:https://us06web.zoom.us/j/89731719894?pwd=muZlwwjhRKynLy7RV9ja9otShUNUUS.1
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Protection Before Panic Webinar starts in 1 hour
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Protection Before Panic Webinar starts in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
